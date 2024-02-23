@@ -1,4 +1,4 @@
-package Problems;
+package Problems.Array;
 public class Count_maximum_consecutive_ones_in_array_ {
   public static int maxConsecutuiveOnes(int nums[]){
     int cnt = 0;

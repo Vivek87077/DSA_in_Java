@@ -1,4 +1,4 @@
-package Problems;
+package Problems.Array;
 public class Two_Sum_check_a_pair_with_given_sum_in_array_{
 
   //------------------1) Brute Force Approach ---------------Time Complexity: O(N^2)   Space Complexity: O(1)

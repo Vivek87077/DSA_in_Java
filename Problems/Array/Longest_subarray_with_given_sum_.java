@@ -1,4 +1,4 @@
-package Problems;
+package Problems.Array;
 public class Longest_subarray_with_given_sum_ {
   //------------------1) Brute Force Approach(Using three loops) ----------------Time Complexity: O(N^3)    Space Complexity: O(1)
   public static int LongestSubarray(int[] arr, int sum){

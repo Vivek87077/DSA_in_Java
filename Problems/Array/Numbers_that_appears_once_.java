@@ -1,4 +1,4 @@
-package Problems;
+package Problems.Array;
 public class Numbers_that_appears_once_ {
   // ---------1) Linear search approach -----------  Time Complexity: O(N^2)   Space Complexity: O(1) 
   public static int NumbersOccurenceOnce(int[] arr) {
