@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class i_Last_occurrence_of_an_element_x_in_given_array_ {
+public class Q_13_Last_occurrence_of_an_element_x_in_given_array_ {
     static int lastOccurences(int[] arr, int x){
         int lastIndex = -1;
         for(int i = 0; i < arr.length; i++){

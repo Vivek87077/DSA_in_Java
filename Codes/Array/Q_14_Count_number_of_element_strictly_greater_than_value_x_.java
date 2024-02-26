@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class j_Count_number_of_element_strictly_greater_than_value_x_ {
+public class Q_14_Count_number_of_element_strictly_greater_than_value_x_ {
     static int greaterElement(int[] arr, int x){
         int count = 0;
         for(int i = 0; i < arr.length; i++){

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class k_Check_the_given_array_is_sorted_or_not_ {
+public class Q_15_Check_the_given_array_is_sorted_or_not_ {
 
     static boolean isSorted(int[] array){
         boolean check = true;

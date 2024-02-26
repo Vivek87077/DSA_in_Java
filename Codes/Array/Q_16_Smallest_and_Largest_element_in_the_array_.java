@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class l_Smallest_and_Largest_element_in_the_array_ {
+public class Q_16_Smallest_and_Largest_element_in_the_array_ {
 
     static int[] smallestAndLargestElement(int[] array){
         Arrays.sort(array);

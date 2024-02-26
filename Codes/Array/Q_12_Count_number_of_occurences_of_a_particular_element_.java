@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class h_Count_number_of_occurences_of_a_particular_element_ {
+public class Q_12_Count_number_of_occurences_of_a_particular_element_ {
     static int countOccurences(int[] arr, int x){
         int count = 0;
         for(int i = 0; i < arr.length; i++){
