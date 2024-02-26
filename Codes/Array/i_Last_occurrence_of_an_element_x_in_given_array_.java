@@ -1,5 +1,14 @@
 import java.util.Scanner;
 public class i_Last_occurrence_of_an_element_x_in_given_array_ {
+    static int lastOccurences(int[] arr, int x){
+        int lastIndex = -1;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == x){
+                lastIndex = i;
+            }
+        }
+        return lastIndex;
+    }
     public static void main(String[] args) {
         System.out.println("Enter the size of the array: ");
         try (Scanner sc = new Scanner(System.in)) {
@@ -13,13 +22,8 @@ public class i_Last_occurrence_of_an_element_x_in_given_array_ {
             
             System.out.println("Enter the value of x: ");
             int x = sc.nextInt();
-            int lastIndex = -1;
-            for(int i = 0; i < array.length; i++){
-                if(array[i] == x){
-                    lastIndex = i;
-                }
-            }
-            System.out.println("last occurrence of element at index: "+ lastIndex);
+            
+            System.out.println("last occurrence of element at index: "+ lastOccurences(array, x));
         }
     }
 }
