@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// Stack ----> reference rakhta hai 
+// heap -----> actual memory rakhta hai
 public class g_Array_reference_ {
 
     static void printArray(int[] arr){
@@ -29,8 +31,8 @@ public class g_Array_reference_ {
 
         // trying to copy arr to arr_2 
             System.out.println("Copied Array");
-            int[] arr_2 = arr;        // shallow copy: address ek hota hai variable do hote hai aur dono ek hi ko point karte hai
-         // int[] arr_2 = arr.clone();   deep copy:  address aur variable dono alag alag jagah par hai dono array ke liye   
+            int[] arr_2 = arr;        // shallow copy: actual address ek hota hai refernces or variable do hote hai aur dono ek hi ko point karte hai
+         // int[] arr_2 = arr.clone();   deep copy:  reference aur actual dono alag alag jagah par hai dono array ke liye   
          // int[] arr_2 = Arrays.copyOf(arr, arr.length);
         //  int[] arr_2 = Arrays.copyOfRange(arr, 0, 4);
             printArray(arr_2);     
