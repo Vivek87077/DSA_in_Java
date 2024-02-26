@@ -1,5 +1,14 @@
 import java.util.Scanner;
 public class h_Count_number_of_occurences_of_a_particular_element_ {
+    static int countOccurences(int[] arr, int x){
+        int count = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == x){
+                count++;
+            }
+        }
+        return count;
+    }
     public static void main(String[] args) {
         System.out.println("Enter the size of the array: ");
         try (Scanner sc = new Scanner(System.in)) {
@@ -13,13 +22,8 @@ public class h_Count_number_of_occurences_of_a_particular_element_ {
 
             System.out.println("Enter the value of x: ");
             int x = sc.nextInt();
-            int count = 0;
-            for(int i = 0; i < arr.length; i++){
-                if(arr[i] == x){
-                    count++;
-                }
-            }
-            System.out.println("Count of total occurences: "+ count);
+            int ans = countOccurences(arr, x);
+            System.out.println("Count of total occurences: "+ ans);
        
         }
     }
